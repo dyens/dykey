@@ -1,0 +1,17 @@
+[package]
+name = "dykey"
+version = "0.1.0"
+authors = ["dyens <dyens@mail.ru>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.gdk]
+gdk = "*"
+
+[dependencies.gtk]
+version = "0.7.0"
+features = ["v3_16"]
+
+[dependencies.gio]
+version = ""
+features = ["v2_44"]
